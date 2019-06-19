@@ -1,0 +1,24 @@
+# Ignore all
+/*
+cmake/*
+
+
+## Unignore the following extensions
+!*.h
+!*.cc
+!*.cpp
+!*.sh
+!*.MD
+!*.py
+
+# Unignore the following files
+!*CMakeLists.txt
+!.travis.yml
+!.gitignore
+
+# Unignore source code directories
+!benchmark/
+!common/
+!core/
+!protocol/
+!scripts/
